@@ -19,8 +19,6 @@ def check_guess(guess)
     return "Too high!"
   elsif guess < SECRET_NUMBER
     return "Too low!"
-  elsif guess < SECRET_NUMBER
-    return "Too low!"
   elsif guess == SECRET_NUMBER
     return "Correct!"
   end
