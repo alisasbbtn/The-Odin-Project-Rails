@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+  </head>
+  <style></style>
+  <body>
+  <div class="background">
+    <div class="request">
+        <h1>Caesar Cipher</h1>
+        <form>
+          <p>Enter the text</p>
+          <textarea class="text" autofocus name="text" ><%= text unless text.nil? %></textarea>
+          <br>
+          <input type='number' name="shift" value=<%= shift.to_s unless shift.nil? %> min="1" max="26" placeholder="Shift" />
+          <input type="submit" name="action" value="Encode" />
+          <input type="submit" name="action" value="Decode" />
+          <input type="submit" name="action" value="Clear" />
+        </form>
+    </div>
+
+    <div class="result">
+      <p>Result</p>
+      <textarea class="result" readonly><%= result_text %></textarea>
+    </div>
+
+  </div>
+
+  </body>
+</html>

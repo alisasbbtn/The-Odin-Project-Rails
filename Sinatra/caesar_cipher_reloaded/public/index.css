@@ -1,0 +1,64 @@
+@import "http://webfonts.ru/import/adventpro.css";
+@import "http://webfonts.ru/import/engine.css";
+
+.request, .result{
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.background{
+    margin: 10% auto 0 auto;
+    width: 70%;
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px #7f8c8d;
+}
+
+textarea{
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    outline-color: #494953;
+    resize: none;
+    padding: 3px;
+}
+
+input{
+    float: left;
+    margin: 5px 2px;
+    padding: 10px;
+    outline-color: transparent;
+    color: whitesmoke;
+    border: 0 none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+input[value="Decode"]{ background-color: rgb(39, 174, 96); }
+
+input[value="Encode"]{ background-color: rgb(231, 76, 60); }
+
+input:last-of-type{ float: right; background-color: rgb(44, 62, 80);}
+
+input[value="Decode"]:hover { background-color: rgb(39, 194, 96); }
+
+input[value="Encode"]:hover{ background-color: rgb(251, 86, 60); }
+
+input:last-of-type:hover{ background-color: rgb(44, 72, 130);}
+
+input[name="shift"]{
+    box-shadow: none;
+    width: 65px;
+    color: #494953;
+    outline-color: #494953;
+}
+
+p{  margin-bottom: 3px; }
+
+input, h1{ font-family: 'Engine'; }
+
+h1{ color: #e74c3c; }
+
+input, p{ font-family: 'Advent Pro'; }
