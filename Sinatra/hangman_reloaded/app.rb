@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'sinatra/reloader'
 
-require_relative 'classes'
+require_relative 'dict'
 
 enable :sessions
 set :session_secret, 'mumbojumbo'

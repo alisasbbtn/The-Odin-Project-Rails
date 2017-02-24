@@ -41,7 +41,8 @@ input[name="guess"]{
 .head>p{
     float: left;
     font-size: smaller;
-    margin-top: 25px;
+    margin-top: 23px;
+    margin-left: 2px;
 }
 
 input[type="submit"]{
