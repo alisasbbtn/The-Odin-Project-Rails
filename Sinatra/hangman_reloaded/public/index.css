@@ -1,0 +1,56 @@
+.word{
+    letter-spacing: 5px;
+}
+
+h1{
+    font-family: 'Amatica SC', cursive;
+    margin-top: 0;
+    margin-left: 10px;
+    float: left;
+}
+
+.message{
+    font-family: 'Indie Flower', cursive;
+    font-size: x-large;
+}
+
+p, h2, input{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.field *, .message{
+    text-align: center;
+}
+
+
+input[name='new_game']{
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+}
+
+input[name="guess"]{
+    width: 30px;
+    height: 25px;
+}
+
+.head{
+    height: 50px;
+}
+
+.head>p{
+    float: left;
+    font-size: smaller;
+    margin-top: 25px;
+}
+
+input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 30px;
+}
+
+div{
+    margin: 0 auto;
+    width: 50%;
+}

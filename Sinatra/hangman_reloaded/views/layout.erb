@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Hangman</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link href="https://fonts.googleapis.com/css?family=Amatica+SC|Indie+Flower|Open+Sans+Condensed:300" rel="stylesheet">
+</head>
+
+<body>
+  <div class="head">
+    <h1>Hangman</h1>
+    <p>without a hangman (for now)</p>
+    <form method="get" action="/new">
+      <input type="submit" name="new_game" value="New game">
+    </form>
+  </div>
+
+  <div>
+    <%= yield %>
+
+  </div>
+</body>
+</html>

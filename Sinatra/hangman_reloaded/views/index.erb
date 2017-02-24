@@ -1,0 +1,15 @@
+<div class="field">
+  <p class="message"><%= @message %></p>
+  <p class="left"><%= "You have #{@chances} chances left." %></p>
+  <% if @guesses.empty? %>
+      <br>
+  <% else %>
+      <p class="guesses"><%= @guesses.join(', ') %></p>
+  <% end %>
+  <p class="word"><%= @word_show %></p>
+  <h2>Enter your guess:</h2>
+  <form method="get" action="/guess">
+    <input type="text" name="guess" maxlength="1" pattern="[A-Za-z]" minlength="1">
+    <input type="submit" value="Guess!">
+  </form>
+</div>
