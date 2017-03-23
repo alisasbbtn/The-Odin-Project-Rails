@@ -9,7 +9,7 @@
   <p class="word"><%= @word_show %></p>
   <h2>Enter your guess:</h2>
   <form method="get" action="/guess">
-    <input type="text" name="guess" maxlength="1" pattern="[A-Za-z]" minlength="1">
+    <input type="text" name="guess" maxlength="1" pattern="[A-Za-z]" minlength="1" autofocus>
     <input type="submit" value="Guess!">
   </form>
 </div>
