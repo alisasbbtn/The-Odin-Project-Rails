@@ -1,0 +1,7 @@
+<h1>Kitten <%= @kitten.name %></h1>
+<%= render 'delete_link', kitten: @kitten %>
+<ul>
+  <li>Age: <%= @kitten.age %></li>
+  <li>Cuteness: <%= @kitten.cuteness %></li>
+  <li>Softness: <%= @kitten.softness %></li>
+</ul>
